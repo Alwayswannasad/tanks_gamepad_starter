@@ -15,11 +15,6 @@ export interface IKeyActions {
     [index: string]: IKeyAction;
 }
 
-export interface IBullet {
-    onFly: boolean;
-    direction: Direction;
-}
-
 export interface ITank {
     hp: number
     x: number
